@@ -1,0 +1,49 @@
+{
+    "states": [
+        {
+            "state": "q0r0",
+            "a": "q1r0",
+            "b": "q1r1"
+        },
+        {
+            "state": "q0r1",
+            "a": "q1r0",
+            "b": "q1r1"
+        },
+        {
+            "state": "q1r0",
+            "a": "q2r0",
+            "b": "q2r1"
+        },
+        {
+            "state": "q1r1",
+            "a": "q2r0",
+            "b": "q2r1"
+        },
+        {
+            "state": "q2r0",
+            "a": "q0r0",
+            "b": "q0r1"
+        },
+        {
+            "state": "q2r1",
+            "a": "q0r0",
+            "b": "q0r1"
+        }
+    ],
+    "start-states": "q0r0",
+    "accept-states": [
+        {
+            "state": "q0r0"
+        },
+        {
+            "state": "q0r1"
+        },
+        {
+            "state": "q1r1"
+        },
+        {
+            "state": "q2r1"
+        }
+    ]
+}
