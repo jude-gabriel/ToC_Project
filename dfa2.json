@@ -3,6 +3,7 @@
     {"state":"r0", "a":"r0", "b":"r1"},
     {"state":"r1", "a":"r0", "b":"r1"}
   ],
+  "alphabet": ["a", "b"],
   "start-state":"r0",
   "accept-states":[
     {"state":"r1"}
